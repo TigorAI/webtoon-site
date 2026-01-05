@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>START</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="bar">
+      <div class="brand" aria-label="Название">
+        <span class="mark" aria-hidden="true">
+          <img src="image/logo.png" alt="Логотип Webtoon">
+        </span>
+        <span></span>
+      </div>
+
+      <nav aria-label="Навигация">
+        <a href="#about">О курсе</a>
+        <a href="#program">Программа</a>
+        <a href="#tools">Инструменты</a>
+        <a href="#cheatsheet">Шпаргалка</a>
+        <a href="about.html">Обо мне</a>
+        <a href="support.html">Поддержать</a>
+      </nav>
+
+      <div class="cta">
+        <a class="btn btn-ghost" href="#program">Программа</a>
+        <a class="btn btn-start" href="#program">START</a>
+      </div>
+    </div>
+  </header>
+  <main>
+    <!-- HERO (centered) -->
+    <section id="top" aria-label="Титульный экран">
+      <div class="hero">
+        <div class="chips" aria-label="Теги">
+    
+        </div>
+
+        <h1>Webtoon через инструменты —<br>без навыков рисования</h1>
+
+        <p style="text-align:center">
+          Пошаговый процесс: сценарий → панели → доводка в Clip Studio.
+          Без обещаний результата — только методика, инструменты и контроль качества.
+        </p>
+
+        <div class="banner" aria-label="Баннер-превью">
+          <img src="image/banner.png" alt="Превью: 4 панели webtoon" />
+          <div class="bannerMeta">
+            <small>Превью для настроения. В курсе — разбор процесса и контрольные точки.</small>
+            <span class="press">Press START</span>
+          </div>
+        </div>
+
+        <div class="heroCta">
+          <a class="btn btn-start start" href="#program">START</a>
+          <div class="hint">Доступ без авторизации. В конце курса — шпаргалка с чеклистами.</div>
+        </div>
+
+        <div class="scrollHint" aria-hidden="true">
+          <div>Scroll</div>
+          <div class="chev"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" aria-label="О курсе">
+      <div class="solo">
+        <h2>Что это за курс</h2>
+        <p>
+          Это короткий практический разбор процесса: порядок действий, точки контроля и критерии качества.
+          Без “волшебной кнопки” и без обещаний “вы точно сделаете”. Задача — показать, как работать системно.
+        </p>
+
+        <div class="grid3" style="margin-top: 16px">
+          <div class="card">
+            <b>Структура</b>
+            <small>Пайплайн от текста до экспорта: что делать, где и когда.</small>
+          </div>
+          <div class="card">
+            <b>Контроль качества</b>
+            <small>Чеклисты и “стоп-условия”, чтобы не идти дальше с дырками.</small>
+          </div>
+          <div class="card">
+            <b>Практика</b>
+            <small>Короткие шаги “повтори как показано” — без сдачи и проверки.</small>
+          </div>
+        </div>
+
+        <div class="cta" style="margin-top: 18px">
+          <a class="btn btn-start" href="#about">START</a>
+          <a class="btn btn-ghost" href="#tools">Инструменты</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROGRAM -->
+    <section id="program" aria-label="Программа">
+      <div class="solo">
+        <h2>Программа</h2>
+        <p>5 модулей. Каждый модуль — логика, демонстрация, контрольные критерии и шаги для повторения.</p>
+
+        <div class="panel" style="margin-top: 16px">
+          <div class="grid3">
+            <!-- Each card is now an anchor element linking to its own page and showing a preview image -->
+            <a class="card" href="module0.html">
+              <img src="image/module0.png" alt="Модуль 0">
+              <b>Модуль 0</b>
+            </a>
+            <a class="card" href="module1.html">
+              <img src="image/module1.png" alt="Модуль 1">
+              <b>Модуль 1</b>
+            </a>
+            <a class="card" href="module2.html">
+              <img src="image/module2.png" alt="Модуль 2">
+              <b>Модуль 2</b>
+            </a>
+            <a class="card" href="module3.html">
+              <img src="image/module3.png" alt="Модуль 3">
+              <b>Модуль 3</b>
+            </a>
+            <a class="card" href="module4.html">
+              <img src="image/module4.png" alt="Модуль 4">
+              <b>Модуль 4</b>
+            </a>
+            <a class="card" href="final.html">
+              <img src="image/final.png" alt="Финальный модуль">
+              <b>Финал</b>
+            </a>
+          </div>
+        </div>
+
+        <div class="cta" style="margin-top: 18px">
+          <a class="btn btn-start" href="#tools">Дальше: инструменты</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- TOOLS -->
+    <section id="tools" aria-label="Инструменты">
+      <div class="solo">
+        <h2>Инструменты</h2>
+        <p>Минимальный стек. Не “зоопарк”, а роли: текст → генерация → доводка → экспорт.</p>
+
+        <div class="panel" style="margin-top: 16px">
+          <div class="grid3">
+            <div class="card">
+              <b>Script / Structure</b>
+              <small>Сценарий, панельный план, диалоги, клифф.</small>
+            </div>
+            <div class="card">
+              <b>AI tools</b>
+              <small>Генерация панелей и ассетов. Важно: контроль и итерации, а не удача.</small>
+            </div>
+            <div class="card">
+              <b>Clip Studio Paint</b>
+              <small>Чистка, доводка, баблы, сборка, экспорт.</small>
+            </div>
+          </div>
+        </div>
+
+        <div class="panel">
+          <b style="display:block; margin-bottom:6px">Blender</b>
+          <p style="max-width:none">
+            В процессе используем Blender для 3D-блокинга, компоновки сцен и референсов (перспектива, камера, позы, окружение).
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CHEATSHEET -->
+    <section id="cheatsheet" aria-label="Шпаргалка и ссылки">
+      <div class="solo">
+        <h2>Шпаргалка</h2>
+        <p>В конце курса — краткий конспект: пайплайн, чеклисты, типовые ошибки и быстрые правки. Открываете и восстанавливаете шаги.</p>
+
+        <div class="panel" style="margin-top: 16px">
+          <div class="grid3">
+            <div class="card">
+              <b>Пайплайн</b>
+              <small>что делать → когда → чем контролировать</small>
+            </div>
+            <div class="card">
+              <b>Чеклисты</b>
+              <small>AI / Clip Studio / экспорт / QA</small>
+            </div>
+            <div class="card">
+              <b>Ошибки</b>
+              <small>симптом → причина → правка</small>
+            </div>
+          </div>
+        </div>
+
+        <!-- author and support panels have been moved to separate pages -->
+
+        <div class="cta" style="margin-top: 18px">
+          <a class="btn btn-start" href="#top">Back to top</a>
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="app.js" defer></script>
+</body>
+</html>
